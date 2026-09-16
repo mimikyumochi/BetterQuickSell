@@ -1,0 +1,15 @@
+{
+  "key.category.betterquicksell.main": "Better Quick Sell",
+  "key.betterquicksell.whitelist": "Open Whitelist",
+  "key.betterquicksell.toggle": "Toggle Quick Sell",
+  "betterquicksell.toggle.on": "Quick Sell auto-confirm enabled",
+  "betterquicksell.toggle.off": "Quick Sell auto-confirm disabled",
+  "betterquicksell.whitelist.title": "Quick Sell Whitelist",
+  "betterquicksell.whitelist.item": "Item ID",
+  "betterquicksell.whitelist.item.placeholder": "minecraft:diamond",
+  "betterquicksell.whitelist.count": "Stack Size",
+  "betterquicksell.whitelist.add": "Add",
+  "betterquicksell.whitelist.remove": "Remove",
+  "betterquicksell.whitelist.held": "Use Held Item",
+  "betterquicksell.whitelist.held.tooltip": "Fill in the item and stack size from your main hand"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "betterquicksell",
+  "version": "${version}",
+  "name": "BetterQuickSell",
+  "description": "Adds a customisable whitelist for items to be quick sold on the auction in the DonutSMP.",
+  "authors": ["mimikyumochi"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/betterquicksell/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "lgbt.faith.betterquicksell.BetterQuickSell"
+    ]
+  },
+  "mixins": [
+    "betterquicksell.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
